@@ -7,12 +7,11 @@
 /*debug region*/
 
 .debug header{
-    height: 50px;
+    padding: 1rem;
     background-color: aqua;
 }
 
 .debug nav{
-    height: 30px;
     background-color: #daa520;
 }
 
@@ -22,24 +21,25 @@
 }
 
 .debug footer{
-    height: 70px;
     background-color: aqua;
 }
 
 /*utilities region*/
 
-nav{
-    width: 70%;
+li{
+    padding: 0 10px;
 }
 
 ul{
     list-style: none;
-    height: 100%;
 }
 
-li{
+li.logo, li.login, .link.flex-container{
     border: 1px dashed;
-    height: 100%;
+}
+
+.link{
+    justify-content: space-around;
 }
 
 .flex-container{
@@ -52,13 +52,8 @@ li{
     width: 25%;
 }
 
-.link{
-    width: 50%; 
-    align-self: center;
-}
-
 .login{
-    justify-self: flex-end;
+    text-align: right;
 }
 
 .bg-blue{
@@ -68,7 +63,7 @@ li{
 
 .violet-rectangle{
     height: 150px;
-    width: 40%;
+    width: 50%;
     background-color: violet;
     border: 1px dashed;
 }
