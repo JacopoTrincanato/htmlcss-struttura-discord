@@ -104,13 +104,14 @@ div.logo, div.login, ul.flex-container{
 .bg-black{
     background-color: black;
     padding: 2rem;
+    margin-bottom: 1rem;
 }
 
 .light-red-rectangle{
     height: 500px;
     width: 25%;
     background-color: #f08080;
-    border: 1px dashed white;
+    border: 1px dashed;
 }
 
 .darkgreen-rectangle{
@@ -118,4 +119,16 @@ div.logo, div.login, ul.flex-container{
     width: 15%;
     background-color: #20b2aa;
     border: 1px dashed white;
+}
+
+.ending.flex-container{
+    background-color: #7fffd4;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.logo-footer, .button{
+    background-color: #ffb6c1;
+    border: 1px dashed;
+    padding: 5px;
 }
