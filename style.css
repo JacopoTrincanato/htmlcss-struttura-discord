@@ -7,7 +7,8 @@
 /*debug region*/
 
 .debug header{
-    padding: 1rem;
+    padding: 20px 130px;
+
     background-color: aqua;
 }
 
@@ -26,19 +27,16 @@
 /*utilities region*/
 
 li{
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 ul{
     list-style: none;
+    width: 50%;
 }
 
-li.logo, li.login, .link.flex-container{
+div.logo, div.login, ul.flex-container{
     border: 1px dashed;
-}
-
-.link{
-    justify-content: space-around;
 }
 
 .flex-container{
@@ -49,6 +47,7 @@ li.logo, li.login, .link.flex-container{
 
 .logo, .login{
     width: 25%;
+    padding: 0 5px;
 }
 
 .login{
@@ -62,7 +61,7 @@ li.logo, li.login, .link.flex-container{
 
 .violet-rectangle{
     height: 200px;
-    width: 50%;
+    width: 55%;
     background-color: violet;
     border: 1px dashed;
 }
@@ -74,7 +73,7 @@ li.logo, li.login, .link.flex-container{
 
 .pink-rectangle{
     height: 200px;
-    width: 35%;
+    width: 38%;
     background-color: #ffc0cb;
     border: 1px dashed;
 }
@@ -84,4 +83,9 @@ li.logo, li.login, .link.flex-container{
     width: 45%;
     background-color: #1e90ff;
     border: 1px dashed;
+}
+
+.bg-light-gray{
+    background-color: #d3d3d3;
+    padding: 2rem;
 }
