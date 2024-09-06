@@ -12,6 +12,11 @@
     background-color: aqua;
 }
 
+.debug nav{
+    height: 30px;
+    background-color: yellow;
+}
+
 .debug main{
     height: 500px;
     background-color: violet;
@@ -20,5 +25,23 @@
 .debug footer{
     height: 70px;
     background-color: aqua;
+}
+
+/*utilities region*/
+
+nav{
+    width: 80%;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo, .login{
+    width: 25%;
+}
+
+.link{
+    width: 50%; 
 }
 
