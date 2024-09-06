@@ -2,4 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dashed;
 }
+
+/*debug region*/
+
+.debug header{
+    height: 70px;
+    background-color: aqua;
+}
+
+.debug main{
+    height: 500px;
+    background-color: violet;
+}
+
+.debug footer{
+    height: 70px;
+    background-color: aqua;
+}
+
