@@ -24,7 +24,7 @@
     background-color: black;
 }
 
-/*utilities region*/
+/*common region*/
 
 li{
     padding: 0 5px;
@@ -35,6 +35,7 @@ ul{
     width: 50%;
 }
 
+/*header region*/
 div.logo, div.login, ul.flex-container{
     border: 1px dashed;
 }
@@ -54,6 +55,7 @@ div.logo, div.login, ul.flex-container{
     text-align: right;
 }
 
+/*main region*/
 .bg-blue{
     background-color: darkblue;
     padding: 2rem;
@@ -101,10 +103,11 @@ div.logo, div.login, ul.flex-container{
     flex-direction: row-reverse;
 }
 
+/*footer region*/
 .bg-black{
     background-color: black;
     padding: 2rem;
-    margin-bottom: 1rem;
+    border-bottom: 1px solid white;
 }
 
 .light-red-rectangle{
@@ -121,9 +124,16 @@ div.logo, div.login, ul.flex-container{
     border: 1px dashed white;
 }
 
-.ending.flex-container{
+.bg-light-green{
     background-color: #7fffd4;
-    width: 85%;
+    width: 85%;  
+    padding: 10px 0;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1px solid white;
+}
+
+.ending.flex-container{
     justify-content: space-between;
 }
 
