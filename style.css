@@ -36,9 +36,6 @@ ul{
 }
 
 /*header region*/
-div.logo, div.login, ul.flex-container{
-    border: 1px dashed;
-}
 
 .flex-container{
     display: flex;
@@ -58,55 +55,60 @@ div.logo, div.login, ul.flex-container{
 /*main region*/
 .bg-blue{
     background-color: darkblue;
-    padding: 2rem;
 }
 
 .violet-rectangle{
-    height: 400px;
     width: 55%;
     background-color: violet;
-    border: 1px dashed;
 }
 
 .bg-white{
     background-color: white;
-    padding: 2rem;
 }
 
 .pink-rectangle{
-    height: 400px;
     width: 33%;
     background-color: #ffc0cb;
-    border: 1px dashed;
 }
 
 .blue-rectangle{
-    height: 400px;
     width: 52%;
     background-color: #1e90ff;
-    border: 1px dashed;
 }
 
 .bg-light-gray{
     background-color: #d3d3d3;
-    padding: 2rem;
 }
 
 .green-rectangle{
     height: 800px;
     width: 85%;
     background-color: #228b22;
-    border: 1px dashed;
 }
 
 .special.flex-container{
     flex-direction: row-reverse;
 }
 
+/*utilities region*/
+.bg-blue, .bg-white, .bg-light-gray, .bg-black{
+    padding: 2rem;
+}
+
+.violet-rectangle, .pink-rectangle, .blue-rectangle{
+    height: 400px;
+}
+
+div.logo, div.login, ul.flex-container,.violet-rectangle, 
+.pink-rectangle, .blue-rectangle, .green-rectangle, 
+.light-red-rectangle, .logo-footer, .button{
+    border: 1px dashed;
+}
+
+
 /*footer region*/
 .bg-black{
     background-color: black;
-    padding: 2rem;
     border-bottom: 1px solid white;
 }
 
@@ -114,7 +116,6 @@ div.logo, div.login, ul.flex-container{
     height: 500px;
     width: 25%;
     background-color: #f08080;
-    border: 1px dashed;
 }
 
 .darkgreen-rectangle{
@@ -126,11 +127,10 @@ div.logo, div.login, ul.flex-container{
 
 .bg-light-green{
     background-color: #7fffd4;
-    width: 85%;  
+    width: 82%;  
     padding: 10px 0;
     margin: auto;
     margin-top: 1rem;
-    margin-bottom: 1px solid white;
 }
 
 .ending.flex-container{
@@ -139,6 +139,5 @@ div.logo, div.login, ul.flex-container{
 
 .logo-footer, .button{
     background-color: #ffb6c1;
-    border: 1px dashed;
     padding: 5px;
 }
