@@ -21,7 +21,7 @@
 }
 
 .debug footer{
-    background-color: aqua;
+    background-color: black;
 }
 
 /*utilities region*/
@@ -73,14 +73,14 @@ div.logo, div.login, ul.flex-container{
 
 .pink-rectangle{
     height: 200px;
-    width: 38%;
+    width: 33%;
     background-color: #ffc0cb;
     border: 1px dashed;
 }
 
 .blue-rectangle{
     height: 200px;
-    width: 45%;
+    width: 52%;
     background-color: #1e90ff;
     border: 1px dashed;
 }
@@ -88,4 +88,15 @@ div.logo, div.login, ul.flex-container{
 .bg-light-gray{
     background-color: #d3d3d3;
     padding: 2rem;
+}
+
+.green-rectangle{
+    height: 400px;
+    width: 85%;
+    background-color: #228b22;
+    border: 1px dashed;
+}
+
+.special.flex-container{
+    flex-direction: row-reverse;
 }
