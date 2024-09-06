@@ -37,6 +37,12 @@ ul{
     list-style: none;
 }
 
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo, .login{
     width: 25%;
 }
