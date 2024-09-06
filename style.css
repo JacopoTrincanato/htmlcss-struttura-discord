@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed;
 }
 
 /*debug region*/
@@ -37,6 +36,10 @@ ul{
     list-style: none;
 }
 
+li{
+    border: 1px dashed;
+}
+
 .flex-container{
     display: flex;
     align-items: center;
@@ -49,5 +52,21 @@ ul{
 
 .link{
     width: 50%; 
+    align-self: center;
+}
+
+.login{
+    justify-self: flex-end;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.pink-rectangle{
+    height: 150px;
+    width: 300px;
+    background-color: pink;
+    border: 1px dashed;
 }
 
