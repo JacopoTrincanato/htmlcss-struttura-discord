@@ -13,7 +13,7 @@
 
 .debug nav{
     height: 30px;
-    background-color: yellow;
+    background-color: #daa520;
 }
 
 .debug main{
@@ -68,7 +68,7 @@ li{
 
 .violet-rectangle{
     height: 150px;
-    width: 50%;
+    width: 40%;
     background-color: violet;
     border: 1px dashed;
 }
@@ -81,7 +81,7 @@ li{
 .pink-rectangle{
     height: 150px;
     width: 30%;
-    background-color: violet;
+    background-color: #ffc0cb;
     border: 1px dashed;
 }
 
