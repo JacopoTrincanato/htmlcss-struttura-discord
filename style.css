@@ -7,8 +7,6 @@
 /*debug region*/
 
 .debug header{
-    padding: 20px 130px;
-
     background-color: aqua;
 }
 
@@ -37,7 +35,16 @@ ul{
 
 /*header region*/
 
-.flex-container{
+header{
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +106,7 @@ ul{
     height: 400px;
 }
 
-div.logo, div.login, ul.flex-container,.violet-rectangle, 
+div.logo, div.login, ul.d-flex,.violet-rectangle, 
 .pink-rectangle, .blue-rectangle, .green-rectangle, 
 .light-red-rectangle, .logo-footer, .button{
     border: 1px dashed;
