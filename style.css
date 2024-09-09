@@ -22,6 +22,19 @@
     background-color: black;
 }
 
+.debug .first-section-container, .pink-rectangle, .blue-rectangle{
+    height: 400px;
+}
+
+.debug .fifth-section-container{
+    height: 800px;
+    background-color: #228b22;
+}
+
+.debug .darkgreen-rectangle, .debug .light-red-rectangle{
+    height: 500px;
+}
+
 /*common region*/
 
 li{
@@ -46,7 +59,6 @@ header{
 
 .d-flex{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -64,8 +76,9 @@ header{
     background-color: darkblue;
 }
 
-.violet-rectangle{
-    width: 55%;
+.first-section-container{
+    width: 70%;
+    margin: auto;
     background-color: violet;
 }
 
@@ -74,12 +87,12 @@ header{
 }
 
 .pink-rectangle{
-    width: 33%;
+    width: 40%;
     background-color: #ffc0cb;
 }
 
 .blue-rectangle{
-    width: 52%;
+    width: 60%;
     background-color: #1e90ff;
 }
 
@@ -87,27 +100,13 @@ header{
     background-color: #d3d3d3;
 }
 
-.green-rectangle{
-    height: 800px;
-    width: 85%;
-    background-color: #228b22;
-}
-
-.special.flex-container{
-    flex-direction: row-reverse;
-}
-
 /*utilities region*/
 .bg-blue, .bg-white, .bg-light-gray, .bg-black{
     padding: 2rem;
 }
 
-.violet-rectangle, .pink-rectangle, .blue-rectangle{
-    height: 400px;
-}
-
-div.logo, div.login, ul.d-flex,.violet-rectangle, 
-.pink-rectangle, .blue-rectangle, .green-rectangle, 
+div.logo, div.login, ul.d-flex,.first-section-container, 
+.pink-rectangle, .blue-rectangle, .fifth-section-container, 
 .light-red-rectangle, .logo-footer, .button{
     border: 1px dashed;
 }
@@ -120,7 +119,6 @@ div.logo, div.login, ul.d-flex,.violet-rectangle,
 }
 
 .light-red-rectangle{
-    height: 500px;
     width: 25%;
     background-color: #f08080;
 }
