@@ -26,6 +26,18 @@
     height: 400px;
 }
 
+.debug .first-section-container{
+    background-color: violet;
+}
+
+.debug .pink-rectangle{
+    background-color: #ffc0cb;
+}
+
+.debug .blue-rectangle{
+    background-color: #1e90ff;
+}
+
 .debug .fifth-section-container{
     height: 800px;
     background-color: #228b22;
@@ -33,6 +45,18 @@
 
 .debug .darkgreen-rectangle, .debug .light-red-rectangle{
     height: 500px;
+}
+
+.debug .light-red-rectangle{
+    background-color: #f08080;
+}
+
+.debug .darkgreen-rectangle{
+    background-color: #20b2aa;
+}
+
+.debug .ending-flex-container{
+    background-color: #7fffd4;
 }
 
 .debug .logo-footer, .debug .button{
@@ -83,7 +107,6 @@ header{
 .first-section-container{
     width: 70%;
     margin: auto;
-    background-color: violet;
 }
 
 .bg-white{
@@ -92,12 +115,10 @@ header{
 
 .pink-rectangle{
     width: 40%;
-    background-color: #ffc0cb;
 }
 
 .blue-rectangle{
     width: 60%;
-    background-color: #1e90ff;
 }
 
 .bg-light-gray{
@@ -130,12 +151,10 @@ div.logo, div.login, ul.d-flex,.first-section-container,
 
 .light-red-rectangle{
     width: calc((100% / 12) * 4);
-    background-color: #f08080;
 }
 
 .darkgreen-rectangle{
     width: calc((100% / 12) * 2);
-    background-color: #20b2aa;
     border: 1px dashed white;
 }
 
@@ -145,7 +164,6 @@ hr.divider {
 
 .ending-flex-container{
     justify-content: space-between;
-    background-color: #7fffd4;
     padding: 1rem 0;
     margin-top: 1rem;
 }
