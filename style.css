@@ -35,6 +35,10 @@
     height: 500px;
 }
 
+.debug .logo-footer, .debug .button{
+    background-color: #ffb6c1;
+}
+
 /*common region*/
 
 li{
@@ -100,9 +104,15 @@ header{
     background-color: #d3d3d3;
 }
 
+.fifth-section-container{
+    width: 80%;
+    margin: auto;
+}
+
 /*utilities region*/
 .bg-blue, .bg-white, .bg-light-gray, .bg-black{
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 div.logo, div.login, ul.d-flex,.first-section-container, 
@@ -119,30 +129,27 @@ div.logo, div.login, ul.d-flex,.first-section-container,
 }
 
 .light-red-rectangle{
-    width: 25%;
+    width: calc((100% / 12) * 4);
     background-color: #f08080;
 }
 
 .darkgreen-rectangle{
-    height: 500px;
-    width: 15%;
+    width: calc((100% / 12) * 2);
     background-color: #20b2aa;
     border: 1px dashed white;
 }
 
-.bg-light-green{
+hr.divider {
+    border-bottom: 1px solid white !important;
+}
+
+.ending-flex-container{
+    justify-content: space-between;
     background-color: #7fffd4;
-    width: 82%;  
-    padding: 10px 0;
-    margin: auto;
+    padding: 1rem 0;
     margin-top: 1rem;
 }
 
-.ending.flex-container{
-    justify-content: space-between;
-}
-
 .logo-footer, .button{
-    background-color: #ffb6c1;
     padding: 5px;
 }
